@@ -345,3 +345,11 @@ h1,
   color: var(--accent);
   color: #00000063;
 }
+@media (min-width: 950px) {
+  .center-box {
+    margin-bottom: calc(var(--index) * 3);
+  }
+  .btn-back {
+    padding: 2em 4em;
+  }
+}
