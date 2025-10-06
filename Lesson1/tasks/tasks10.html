@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Task #1</h1>
+
+    <p>
+      Дано значення X, <Y class="br"></Y> Обчислити значення виразів: <br />
+      s1 = x + 3 <br />
+      s2 = cos(x + 3 + y^7)
+      <br />
+    </p>
+    <h2>Рішення</h2>
+    <!-- -----рішення -->
+    <script>
+      // --ввод данних
+      let x = parseInt(prompt("ВВедіть число x: '1'"));
+      let y = parseInt(prompt("ВВедіть число y: '2'"));
+      //-рішення
+      let s1 = x + 3;
+      let s2 = Math.cos(x + 3 + Math.pow(y, 7));
+      //- вивести рез
+      document.write(`
+      s1 = ${s1} <br/>
+      s2 = ${s2}
+      `);
+    </script>
+  </body>
+</html>

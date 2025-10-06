@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Task #1</h1>
+
+    <p>
+      У localStorage зберігається об`єкт у форматі JSON з ключем «data». <br />
+      Проаналізувати значення поля «field2». <br />
+      <br />Якщо рядок - то вивести довжину, <br />якщо число -то визначити чи є
+      парним.
+      <br />
+    </p>
+    <h2>Рішення</h2>
+    <button id="btnGenerate">Генерувати значення для Local Storage</button>
+    <p id="result"></p>
+
+    <!-- -----рішення -->
+    <script>
+      // --f додати в LS {}:
+      const btn = document.getElementById("btnGenerate");
+      const result = document.getElementById("result");
+
+      btn.addEventListener("click", () => {
+        let value = Math.random() > 0.5 ? "data in LS = string" : 1;
+
+        localStorage.setItem(field2);
+      });
+
+      //-рішення
+
+      //- вивести рез
+    </script>
+  </body>
+</html>
