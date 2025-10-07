@@ -148,3 +148,11 @@ a.btn-back {
     word-break: break-all;
   }
 }
+.solution3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sum {
+  color: var(--accent);
+}
